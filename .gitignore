@@ -1,0 +1,21 @@
+# --- LISTA DEI FILE DA IGNORARE ---
+
+# 1. Ignora tutti gli script Python
+*.py
+*.pyc
+__pycache__/
+
+# 2. Ignora le cartelle pesanti di Quantum ESPRESSO
+tmp/
+out/
+work/
+*.save/
+*.wfc
+*.hub
+*.mix
+*.igk
+*.xml
+
+# 3. Ignora file di sistema Mac e crash
+.DS_Store
+CRASH

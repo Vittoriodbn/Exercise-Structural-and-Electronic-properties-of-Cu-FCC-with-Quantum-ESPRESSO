@@ -1,0 +1,7 @@
+
+&PROJWFC
+    prefix = 'Cu_fcc'
+    outdir = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/tmp/'
+    Emin = -15.0, Emax = 30.0, DeltaE = 0.05
+    filpdos = 'Cu_pdos'
+/

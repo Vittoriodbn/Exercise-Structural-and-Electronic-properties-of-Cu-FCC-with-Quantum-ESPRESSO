@@ -1,0 +1,6 @@
+
+&BANDS
+    prefix = 'Cu_fcc'
+    outdir = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/tmp/'
+    filband = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/bands.dat'
+/

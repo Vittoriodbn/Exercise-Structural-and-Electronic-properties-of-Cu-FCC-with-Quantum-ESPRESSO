@@ -1,0 +1,6 @@
+&INPUTPP
+    prefix    = 'Cu_fcc'
+    outdir    = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/tmp/'
+    filplot   = 'charge_tmp.dat'
+    plot_num  = 0
+/

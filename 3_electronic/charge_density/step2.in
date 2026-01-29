@@ -1,0 +1,16 @@
+&INPUTPP
+    prefix    = 'Cu_fcc'
+    outdir    = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/tmp/'
+/
+&PLOT
+    nfile     = 1
+    filepp(1) = 'charge_tmp.dat'
+    weight(1) = 1.0
+    iflag     = 3
+    output_format = 6
+    fileout   = 'charge_2d.dat'
+    e1(1)=0.0, e1(2)=1.0, e1(3)=0.0
+    e2(1)=0.0, e2(2)=0.0, e2(3)=1.0
+    x0(1)=0.0, x0(2)=0.0, x0(3)=0.0
+    nx=100, ny=100
+/
