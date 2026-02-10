@@ -1,0 +1,35 @@
+
+&CONTROL
+    calculation = 'scf'
+    restart_mode = 'from_scratch'
+    prefix = 'Cu_k8'
+    pseudo_dir = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/pseudo/'
+    outdir = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/tmp/'
+    verbosity = 'low'
+    tstress = .true.
+    tprnfor = .true.
+/
+&SYSTEM
+    ibrav = 1,
+    celldm(1) = 6.821910820289999, 
+    nat = 4,
+    ntyp = 1,
+    ecutwfc = 80,
+    ecutrho = 800,
+    occupations = 'smearing',
+    smearing = 'mv',
+    degauss = 0.02,
+/
+&ELECTRONS
+    conv_thr = 1.0d-8
+    mixing_beta = 0.7
+/
+ATOMIC_SPECIES
+Cu  63.546  Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+Cu 0.00 0.00 0.00
+Cu 0.50 0.50 0.00
+Cu 0.50 0.00 0.50
+Cu 0.00 0.50 0.50
+K_POINTS automatic
+8 8 8 1 1 1

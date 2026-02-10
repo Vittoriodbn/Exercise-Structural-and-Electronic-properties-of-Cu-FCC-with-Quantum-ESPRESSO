@@ -1,0 +1,7 @@
+
+&DOS
+    prefix = 'Cu_fcc'
+    outdir = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/tmp/'
+    fildos = '/Users/vittoriodibona/Desktop/Tutorial_LAMMPS/Esame/CopperQE/3_electronic/cu_dos.dat'
+    Emin = -10.0, Emax = 20.0, DeltaE = 0.05
+/

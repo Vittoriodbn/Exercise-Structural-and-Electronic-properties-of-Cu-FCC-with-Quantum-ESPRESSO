@@ -1,0 +1,26 @@
+# --- LISTA DEI FILE DA IGNORARE ---
+
+# 1. Script e Immagini (NUOVI)
+*.py
+*.sh
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# 2. File di sistema e cache
+.DS_Store
+*.pyc
+__pycache__/
+
+# 3. Output pesanti di Quantum ESPRESSO
+tmp/
+out/
+work/
+*.save/
+*.wfc
+*.hub
+*.mix
+*.igk
+*.xml
+CRASH
